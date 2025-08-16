@@ -1,6 +1,8 @@
 # 0342 Power of Four
 
 **LeetCode Link:** [342. Power of Four](https://leetcode.com/problems/power-of-four/)
+**Difficulty:** Easy  
+**Tags:** Math, Bit Manipulation, Recursion
 
 ## 題目描述
 判斷一個整數 `n` 是否是 4 的冪次方（`4^k`，k ≥ 0）。
@@ -16,14 +18,6 @@
 
 ### 方法 1：迴圈除法
 - 核心思路：不斷除以 4，如果最終能整除到 1，則為 4 的冪次方。
-``` java
-    public boolean isPowerOfFour(int n) {
-        while (n != 0 && (n % 4 == 0)) {
-            n /= 4;
-        }
-        return n == 1;
-    }
-```
 - 時間複雜度：O(log₄ n)
 - 空間複雜度：O(1)
 
