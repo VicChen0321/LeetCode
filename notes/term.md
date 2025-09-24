@@ -22,3 +22,7 @@
 - **Circular / Wraparound（循環/環形）:** Structures where the start connects to the end, forming a loop; often requires modulo arithmetic.
   
 - **Monotonic（單調）:** A sequence that is entirely non-increasing or non-decreasing; often used in stack/queue optimizations.
+
+- **lexicographically（按字典順序）**
+- **numerator（分子）**
+- **denominator（分母）**
