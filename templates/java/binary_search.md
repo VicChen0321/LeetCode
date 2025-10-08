@@ -7,7 +7,7 @@ int l = 0, r = n; // [0, n)
 while (l < r) {
     int mid = l + (r - l) / 2; // 避免溢位
     if (arr[mid] >= target)
-        r = mid;        // mid 可能是答案，右縮
+        r = mid;        // mid 符合條件，右縮往左找更小的
     else
         l = mid + 1;    // mid 太小，往右找
 }
