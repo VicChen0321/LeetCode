@@ -1,7 +1,3 @@
-好的，以下是**LeetCode 3186. Maximum Total Damage With Spell Casting** 按照你指定的格式整理：
-
-***
-
 # 3186 Maximum Total Damage With Spell Casting
 
 **LeetCode Link:** [3186. Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/)  
@@ -16,6 +12,7 @@
 給你一個陣列 `power`，每個元素代表一個法術的傷害值。*同一傷害值的法術可以有多個*。
 
 已知規則如下：
+
 - 若魔法師施放傷害為 `power[i]` 的法術，則**不能施放傷害為 `power[i] - 2`、`power[i] - 1`、`power[i] + 1`、`power[i] + 2` 的法術**
 - 每個法術僅能施放一次
 

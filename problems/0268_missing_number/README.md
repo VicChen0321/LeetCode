@@ -1,14 +1,10 @@
-好的，以下是**LeetCode 268. Missing Number** 按照你指定的格式整理：
-
-***
-
 # 268 Missing Number
 
 **LeetCode Link:** [268. Missing Number](https://leetcode.com/problems/missing-number/)  
 **Difficulty:** Easy  
 **Tags:** Array, Math, Bit Manipulation
 
-***
+---
 
 ## 題目描述
 
