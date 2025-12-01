@@ -1,7 +1,3 @@
-好的，我幫你整理 **LeetCode 62 Unique Paths** 的筆記，格式跟你之前的例子一致。
-
----
-
 # 62 Unique Paths
 
 **LeetCode Link:** [62. Unique Paths](https://leetcode.com/problems/unique-paths/)

@@ -1,7 +1,3 @@
-好的，我幫你整理 **LeetCode 20 Valid Parentheses** 的筆記，格式跟你之前的例子一致。
-
----
-
 # 20 Valid Parentheses
 
 **LeetCode Link:** [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
