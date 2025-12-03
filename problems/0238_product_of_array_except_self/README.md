@@ -94,29 +94,3 @@ right *= nums[i]
 * 利用 **先左後右的乘積策略**
 * 使用變數保存右側乘積，避免額外空間
 * 只遍歷兩次即可完成
-
----
-
-## Java 實作
-
-```java
-public int[] productExceptSelf(int[] nums) {
-    int n = nums.length;
-    int[] answer = new int[n];
-
-    // Step 1: 儲存左側乘積
-    answer[0] = 1;
-    for (int i = 1; i < n; i++) {
-        answer[i] = answer[i - 1] * nums[i - 1];
-    }
-
-    // Step 2: 累加右側乘積
-    int right = 1;
-    for (int i = n - 1; i >= 0; i--) {
-        answer[i] *= right;
-        right *= nums[i];
-    }
-
-    return answer;
-}
-```
