@@ -1,7 +1,7 @@
 # 3381 Maximum Subarray Sum With Length Divisible by K
 
 **LeetCode Link:**
-[3381. Maximum Subarray Sum With Length Divisible by K](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/) ([LeetCode][1])
+[3381. Maximum Subarray Sum With Length Divisible by K](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/)
 
 **Difficulty:** Medium
 **Tags:** Array, Prefix Sum, Modulo, Hash / DP
@@ -16,7 +16,7 @@
 * 該子陣列的 **長度是 k 的倍數**（`length % k == 0`）
 * 同時使子陣列的 **總和最大**
 
-回傳這個最大可能的子陣列和。子陣列必須 **非空**。 ([Leetcode][2])
+回傳這個最大可能的子陣列和。子陣列必須 **非空**。
 
 ---
 
@@ -35,7 +35,7 @@ nums = [1,2], k = 1
 ```
 
 **解釋**
-子陣列 [1,2] 長度為 2，是 1 的倍數，總和 = 3。 ([Leetcode][2])
+子陣列 [1,2] 長度為 2，是 1 的倍數，總和 = 3。
 
 **Input**
 
@@ -50,7 +50,7 @@ nums = [-1,-2,-3,-4,-5], k = 4
 ```
 
 **解釋**
-可以選子陣列 [-1,-2,-3,-4]（長度 4，是 4 的倍數），和為 -10，是所有合法子陣列中最大（因為全負） 。 ([Leetcode][2])
+可以選子陣列 [-1,-2,-3,-4]（長度 4，是 4 的倍數），和為 -10，是所有合法子陣列中最大（因為全負） 。
 
 **Input**
 
@@ -65,7 +65,7 @@ nums = [-5,1,2,-3,4], k = 2
 ```
 
 **解釋**
-合法子陣列例如 [1,2,-3,4]（長度 4，是 2 的倍數），總和 = 4，是最大。 ([Leetcode][2])
+合法子陣列例如 [1,2,-3,4]（長度 4，是 2 的倍數），總和 = 4，是最大。
 
 ---
 
